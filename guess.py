@@ -1,21 +1,22 @@
 import random
 
 def guess():
-    print("Welcome to Guess the number game!")
-    print("Rules of this game is simple you need to guess a number between 0-20 and enter that below")
+    print("🎯 Welcome to Guess the Number game!")
+    print("Rules are simple — guess a number between 0 and 20, and enter it below.")
+    print()
 
     computer = random.choice(range(21))
-    print("Type your guess below")
-
+    print("Alright, let’s go! Type your first guess 👇")
+    print()
 
     while True:
-        user = int(input("Number "))
+        user = int(input("Number: "))
         if user == computer:
-            print("Success you've guessed it right ")
+            print("🔥 Success! You've guessed it right!")
             break
         elif user < computer:
-            print("Try some higer numbers")
+            print("Try some higher numbers!")
         elif user > computer:
-            print("Not that high try some lower numbers")
-            
+            print("Not that high, try lower ones!")
+
 guess()
