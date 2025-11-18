@@ -15,3 +15,6 @@ A simple and fun number guessing game written in Python!
 4. Run the program with:
    ```bash
    python guess.py
+
+## Google Colab link
+https://colab.research.google.com/drive/1YGxIKRbfln4o2hre1FRUmjQKJ6ccR-J1?usp=sharing
